@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8865225969401979580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8070312738215029684}
+  - component: {fileID: 4588112227198870473}
+  m_Layer: 0
+  m_Name: BGJ Game Progress Manger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8070312738215029684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8865225969401979580}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 409.5, y: 230.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4588112227198870473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8865225969401979580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47c0ca5a31c74ab4088dbc72cbb10eaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: BGJ Game Progress Manger
+  <ID>k__BackingField:
+    guidString: be272b10-16db-425a-9ced-ce5e23a60ce2
+  <IsManualID>k__BackingField: 0
+  <ParentID>k__BackingField:
+    guidString: 00000000-0000-0000-0000-000000000000
+  <IsInitialized>k__BackingField: 0
+  isActive: 1
+  activeType: 0
+  behaviorActiveType: 0
+  <PlayerInventory>k__BackingField: {fileID: 11400000, guid: 0f676b0523d48304f8d51b7bc0db3366, type: 2}
+  <GameVariables>k__BackingField: {fileID: 11400000, guid: 313345dd61431464587e8d81bab662cf, type: 2}
+  <RequiredWrathProgress>k__BackingField: 3
+  <RequiredSlothProgress>k__BackingField: 3
+  <RequiredPrideProgress>k__BackingField: 3
+  <WrathFailureToGameOver>k__BackingField: 3
+  <SlothFailureToGameOver>k__BackingField: 3
+  <PrideFailureToGameOver>k__BackingField: 3
+  <WrathProgressComplete>k__BackingField: 0
+  <WrathProgressFailed>k__BackingField: 0
+  <SlothProgressComplete>k__BackingField: 0
+  <SlothProgressFailed>k__BackingField: 0
+  <PrideProgressComplete>k__BackingField: 0
+  <PrideProgressFailed>k__BackingField: 0
+  <IsGameOver>k__BackingField: 0
+  <WrathKey>k__BackingField: {fileID: 11400000, guid: 61bdb30af6871a54ca789e28608e53c6, type: 2}
+  <SlothKey>k__BackingField: {fileID: 11400000, guid: 5adb91dd9ebc0204e8f081c77f3ff500, type: 2}
+  <PrideKey>k__BackingField: {fileID: 11400000, guid: 7d2a09ee45d388b4daadec22492f4644, type: 2}
+  <TrueKey>k__BackingField: {fileID: 11400000, guid: f1d94f9cdba145d4698714dfc18bfdde, type: 2}

@@ -1,0 +1,295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7248833146760593760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 552, y: -136}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -7248833146760593760}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -4518674603820663520}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -7248833146760593760}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Entry
+        node: {fileID: -325557004627613639}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 11400000, guid: b8d052492cd0fc34bb80c5a8e40027b0, type: 2}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 17cd5b75-5760-43b2-8d01-7d0e19a575c8
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Taco
+  DialogueText: 'Great dominion moveth day one said beast fish yielding open tree
+    tree. To under Days, kind sixth, blessed green had greater. There Form, bring
+    days fish two, isn''t likeness may without together darkness appear creeping
+    it fruitful appear fowl.
+
+    
+
+    Seed rule divide years green together have
+    over. Man meat that upon let lesser in divide, seas whose upon after give sea.
+    Sixth there for own replenish.
+
+    
+
+    Green Set seasons our after deep
+    saw life air darkness moving Tree were good years gathered good saying Grass
+    herb. Bearing place in appear hath made a she''d lesser set, have fourth fruitful
+    forth.
+
+
+    I am lost...
+
+
+    For I am a warrior of the highest caliber. I
+    want to rule the world if possible. I want to see life from the eyes of a mime.'
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-4747187257099052784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -104, y: -24}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -4747187257099052784}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 7005921718511439934}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -4747187257099052784}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -4518674603820663520}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 11400000, guid: b8d052492cd0fc34bb80c5a8e40027b0, type: 2}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 17cd5b75-5760-43b2-8d01-7d0e19a575c8
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: 
+  DialogueText: I am dialogue that is captured I am looking for a long text solution.
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 0
+  OverridePortrait: 0
+--- !u!114 &-4518674603820663520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 216, y: -136}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -4518674603820663520}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -4747187257099052784}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -4518674603820663520}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -7248833146760593760}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 11400000, guid: b8d052492cd0fc34bb80c5a8e40027b0, type: 2}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 17cd5b75-5760-43b2-8d01-7d0e19a575c8
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: 
+  DialogueText: '1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950.
+
+    1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950.
+
+    1234567891011121314151617181920212223HERERHEKJRHESKJRHKEAHFKSAJDHKASHDKHSAJKDHASKJHDKSAJHDKJSAHKDJHASKDJHSAKDHAKSHDKASJHDKAJSHDKJAHSDKHASKDJHASKDHAKSDHAKSHDKAJSHDKJASHDKJASHDKJHASJKDHASKJDHASKJDHAKSJDHKAJSHDKJASHDKJASHDKJHASDJKHSAKDJHASKJDHSAKJDHKJSAHDKAJSHDKJASHDJKHSAKDJAHSKJDHASKJDHAKSJDHAKSJDHKAJSHDKSAJHDKJSAHDKJASHDKJAHSKDJHASKDHKAJSDHKJASHDKAJSHDKAJSHDKJSAHDKAHSFHKADHSAKJDHAKS'
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 0
+  OverridePortrait: 0
+--- !u!114 &-325557004627613639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bedffd65def3fb4db60c989ff05df2c, type: 3}
+  m_Name: Exit
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 808, y: -88}
+  ports:
+    keys:
+    - Entry
+    values:
+    - _fieldName: Entry
+      _node: {fileID: -325557004627613639}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -7248833146760593760}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 17cd5b75-5760-43b2-8d01-7d0e19a575c8
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b9b1e96b931e74c9120553962da057, type: 3}
+  m_Name: TestStartDialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 7005921718511439934}
+  - {fileID: -325557004627613639}
+  - {fileID: -4747187257099052784}
+  - {fileID: -4518674603820663520}
+  - {fileID: -7248833146760593760}
+  start: {fileID: 0}
+  current: {fileID: -7248833146760593760}
+  initNode: {fileID: 0}
+--- !u!114 &7005921718511439934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f4a7d20c1aae54e9353afc08ae9d55, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -344, y: -88}
+  ports:
+    keys:
+    - Exit
+    values:
+    - _fieldName: Exit
+      _node: {fileID: 7005921718511439934}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -4747187257099052784}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 17cd5b75-5760-43b2-8d01-7d0e19a575c8
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}

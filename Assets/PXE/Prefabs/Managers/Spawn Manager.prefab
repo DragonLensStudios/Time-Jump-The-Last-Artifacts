@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9096702830289388522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2578895626513852093}
+  - component: {fileID: 804510412454481312}
+  m_Layer: 0
+  m_Name: Spawn Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2578895626513852093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9096702830289388522}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &804510412454481312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9096702830289388522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39345ba1fddfb564695d68a5e3a1fdfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Spawn Manager
+  <ID>k__BackingField:
+    guidString: b78521e4-9093-4765-9dc2-fec1d5384751
+  <IsManualID>k__BackingField: 0
+  <ParentID>k__BackingField:
+    guidString: 00000000-0000-0000-0000-000000000000
+  <IsInitialized>k__BackingField: 0
+  isActive: 1
+  activeType: 0
+  behaviorActiveType: 0
+  <BoundsGizmoColor>k__BackingField: {r: 0, g: 1, b: 0, a: 1}
+  <ObjectToSpawn>k__BackingField: {fileID: 0}
+  <ObjectsToSpawn>k__BackingField: []
+  <UseRandomSpawnObjects>k__BackingField: 0
+  <AmountToSpawnMin>k__BackingField: 0
+  <AmountToSpawnMax>k__BackingField: 0
+  <UseSpawningBounds>k__BackingField: 0
+  <MinBounds>k__BackingField: {x: 0, y: 0, z: 0}
+  <MaxBounds>k__BackingField: {x: 0, y: 0, z: 0}
+  <ObjectDetectRadius>k__BackingField: {x: 0, y: 0, z: 0}
+  <ObjectSpawnOffset>k__BackingField: {x: 0, y: 0, z: 0}
+  <UseTilemapToPopulateAvailableSpawnLocations>k__BackingField: 0
+  <TilemapToDetectID>k__BackingField:
+    guidString: 
+  <TilemapToDetectAvailableSpawnPoints>k__BackingField: {fileID: 0}
+  <TilemapToSpawnInsideID>k__BackingField:
+    guidString: 
+  <TilemapToSpawnInside>k__BackingField: {fileID: 0}
+  <UseObjectPool>k__BackingField: 0
+  <ObjectPoolMinCapacity>k__BackingField: 0
+  <ObjectPoolMaxCapacity>k__BackingField: 0
+  <AvailableSpawnLocations>k__BackingField: []
+  <ActiveObjects>k__BackingField: []

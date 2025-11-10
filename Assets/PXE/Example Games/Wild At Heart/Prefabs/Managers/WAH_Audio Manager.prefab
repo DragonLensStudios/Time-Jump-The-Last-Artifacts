@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4916556827749549951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4194523884048889459}
+  - component: {fileID: 3994146324298773979}
+  - component: {fileID: 976667280570707092}
+  m_Layer: 0
+  m_Name: WAH_Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4194523884048889459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4916556827749549951}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3994146324298773979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4916556827749549951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63e3e06b1d909143b43357b98e47323, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: WAH_Audio Manager
+  <ID>k__BackingField:
+    guidString: c2d0d4d8-cd69-44cf-834e-1f4f4da119cf
+  <IsManualID>k__BackingField: 0
+  <ParentID>k__BackingField:
+    guidString: 00000000-0000-0000-0000-000000000000
+  <IsInitialized>k__BackingField: 1
+  isActive: 1
+  activeType: 1
+  behaviorActiveType: 0
+  <VolumeThreshold>k__BackingField: -80
+  <Mixer>k__BackingField: {fileID: 24100000, guid: 694cfcc67bec2d840bcdbd61016ef098, type: 2}
+  <Music>k__BackingField:
+  - {fileID: 11400000, guid: 3005f06d507e6f94a9d569ba26da4480, type: 2}
+  - {fileID: 11400000, guid: 9e589f279a35932428ea2e58c29ed119, type: 2}
+  - {fileID: 11400000, guid: 0250751bdb7cb4e42aa860be32ccb54c, type: 2}
+  - {fileID: 11400000, guid: db163924a97661c44b7ea43a8d572eb1, type: 2}
+  <SoundEffects>k__BackingField:
+  - {fileID: 11400000, guid: ab62e8ab121278a499164ac9bac2a477, type: 2}
+  - {fileID: 11400000, guid: 4be45d07d4276cb499914d479585f852, type: 2}
+  - {fileID: 11400000, guid: a438b7cd415aa5541b0f6a98d36d8ca3, type: 2}
+  - {fileID: 11400000, guid: 026c5844eacab4740836b39e022b0fa8, type: 2}
+  - {fileID: 11400000, guid: 1b8bb5c63115e234fb7b3b5649b87dec, type: 2}
+  - {fileID: 11400000, guid: 12c05486c1c79f741a603627dbf071c2, type: 2}
+  - {fileID: 11400000, guid: 220b10b4c6e8c92429b19e466efc2ef9, type: 2}
+  - {fileID: 11400000, guid: 2f8ed2400baf815419e543f9162f8f11, type: 2}
+  - {fileID: 11400000, guid: cd60463f421c54e4e8c4b2f29aa85e31, type: 2}
+  - {fileID: 11400000, guid: 870dc2870e74b9240ae75a4aff33e98e, type: 2}
+  - {fileID: 11400000, guid: 5b936fb843c21fc4f89cf2762c471f51, type: 2}
+  - {fileID: 11400000, guid: b261d8ba34dba47499f9135e6091a465, type: 2}
+  - {fileID: 11400000, guid: 6e013ea34b6f59142b16f21d284ab947, type: 2}
+  - {fileID: 11400000, guid: 3e2a3b5cb854f50468cbf13c1799a154, type: 2}
+  - {fileID: 11400000, guid: 5541874db87f41a44b7e0dfac870c2fe, type: 2}
+  - {fileID: 11400000, guid: 7c227dff224007647929699f9d2ed9e4, type: 2}
+  - {fileID: 11400000, guid: 790cd001553fc4e4994ee3693025950b, type: 2}
+  - {fileID: 11400000, guid: 66c781a91bd694c4d9d7e8eb79218735, type: 2}
+  - {fileID: 11400000, guid: ba3908138bf142848b5b13bcfbbdb28f, type: 2}
+  - {fileID: 11400000, guid: dc1347852b45b3840a09741b916c119e, type: 2}
+  - {fileID: 11400000, guid: 5d44a1aa21f7bad4bad0f84a1b6f0b35, type: 2}
+  - {fileID: 11400000, guid: a54f8d33631c0564abf474782956d6ff, type: 2}
+  <CurrentlyPlayingSfx>k__BackingField: []
+  <CurrentlyPlayingMusic>k__BackingField: []
+--- !u!114 &976667280570707092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4916556827749549951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cfba9b5306c733428b42f924718ece2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <MusicList>k__BackingField: []
+  <RetryDelay>k__BackingField: 0.1

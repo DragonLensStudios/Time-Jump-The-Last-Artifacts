@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5fa42c33d7ea4245901e22138d0ff33, type: 3}
+  m_Name: InventoryState
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: InventoryState
+  <ID>k__BackingField:
+    guidString: f883181c-52bb-4cf8-8e60-c81b2e62dcf6
+  <IsActive>k__BackingField: 0
+  <IgnoreIsActiveChanges>k__BackingField: 0
+  <EnterSfx>k__BackingField: {fileID: 0}
+  <ExitSfx>k__BackingField: {fileID: 0}
+  <EnterBgm>k__BackingField: {fileID: 0}
+  <ExitBgm>k__BackingField: {fileID: 0}
+  <InventoryCanvasPrefab>k__BackingField: {fileID: 4753565022124935194, guid: 26a3154aeea8bb84ca766235b953ef95, type: 3}
+  <Inventory>k__BackingField: {fileID: 0}

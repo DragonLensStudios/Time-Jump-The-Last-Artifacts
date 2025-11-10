@@ -1,0 +1,1030 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8910132705135402642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3128, y: -232}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -8910132705135402642}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -6338337061357575123}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -8910132705135402642}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 8652635787282260024}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Void Demon
+  DialogueText: You get to the balcony where your friend is talking to your boss.
+    You are still running away.
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-7212946247992994089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3848, y: -216}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -7212946247992994089}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -352518664335160561}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -7212946247992994089}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -3163284546507561901}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: KEYMASTER
+  DialogueText: Your soul has been redeemed. You can now leave...
+  Portrait: {fileID: 21300000, guid: 7236c1582e5cc76419def6cfd2de0bc9, type: 3}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-6969892211434635278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2280, y: -232}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -6969892211434635278}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 4529957541826327866}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -6969892211434635278}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -6320009775567889692}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Void Demon
+  DialogueText: 'The therapist told you to take your defeat with grace. You decide
+    to congradulate your friend. '
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-6482014695101505392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 312, y: -280}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -6482014695101505392}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 8510069009067352693}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -6482014695101505392}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -2250554041674230091}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Void Demon
+  DialogueText: 'Could it have been that you just weren''t as charismatic? Who knows.. '
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-6338337061357575123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2840, y: -248}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -6338337061357575123}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -6320009775567889692}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -6338337061357575123}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -8910132705135402642}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Void Demon
+  DialogueText: 'The HR manager kept following you asking to speak with you privately,
+    but you kept running away claiming that you have something important to do. '
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-6320009775567889692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2552, y: -232}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -6320009775567889692}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -6969892211434635278}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -6320009775567889692}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -6338337061357575123}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Void Demon
+  DialogueText: 'At the party you drink a lot of alcohol, so much alcohol that it
+    was getting the attention of HR. '
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-3163284546507561901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f0a501510564880af2b7efb55b5c3f6, type: 3}
+  m_Name: Message Sender
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4072, y: -200}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -3163284546507561901}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -7212946247992994089}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -3163284546507561901}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Entry
+        node: {fileID: 3011930774781197566}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  Channel: 4
+  MessageConfig: {fileID: 11400000, guid: b12be173b73d6b240816c23d571d8757, type: 2}
+  SendAction: 0
+--- !u!114 &-3000199895514017228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f4a7d20c1aae54e9353afc08ae9d55, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -604.51953, y: -270.15857}
+  ports:
+    keys:
+    - Exit
+    values:
+    - _fieldName: Exit
+      _node: {fileID: -3000199895514017228}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 3071906554250245220}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+--- !u!114 &-2250554041674230091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 648, y: -264}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -2250554041674230091}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -6482014695101505392}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -2250554041674230091}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 8167530927971666847}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Void Demon
+  DialogueText: 'One day your dream position was open due to a termination. '
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-352518664335160561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3608, y: -232}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -352518664335160561}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 8652635787282260024}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -352518664335160561}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -7212946247992994089}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: KEYMASTER
+  DialogueText: There you have it folks! Our friend here is not a murderer, but someone
+    who is clumsy. How boring...
+  Portrait: {fileID: 21300000, guid: 7236c1582e5cc76419def6cfd2de0bc9, type: 3}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b9b1e96b931e74c9120553962da057, type: 3}
+  m_Name: Wrath_Truth
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -3000199895514017228}
+  - {fileID: 3011930774781197566}
+  - {fileID: 3071906554250245220}
+  - {fileID: 8510069009067352693}
+  - {fileID: -2250554041674230091}
+  - {fileID: 4433345948819085115}
+  - {fileID: 4529957541826327866}
+  - {fileID: -6320009775567889692}
+  - {fileID: -8910132705135402642}
+  - {fileID: -352518664335160561}
+  - {fileID: -7212946247992994089}
+  - {fileID: 8652635787282260024}
+  - {fileID: -6338337061357575123}
+  - {fileID: -6969892211434635278}
+  - {fileID: 273942975440216090}
+  - {fileID: 8167530927971666847}
+  - {fileID: -6482014695101505392}
+  - {fileID: -3163284546507561901}
+  start: {fileID: 0}
+  current: {fileID: -2250554041674230091}
+  initNode: {fileID: 0}
+--- !u!114 &273942975440216090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1688, y: -216}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 273942975440216090}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 4433345948819085115}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 273942975440216090}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 4529957541826327866}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Void Demon
+  DialogueText: He reveals that it was your friend who had gotten the position. There
+    will be an office party this weekend.
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &3011930774781197566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bedffd65def3fb4db60c989ff05df2c, type: 3}
+  m_Name: Exit
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4296, y: -200}
+  ports:
+    keys:
+    - Entry
+    values:
+    - _fieldName: Entry
+      _node: {fileID: 3011930774781197566}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -3163284546507561901}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+--- !u!114 &3071906554250245220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -344, y: -280}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 3071906554250245220}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -3000199895514017228}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 3071906554250245220}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 8510069009067352693}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: KEYMASTER
+  DialogueText: IT IS TIME FOR THE BIG REVEAL! take it away my dear friend!
+  Portrait: {fileID: 21300000, guid: 7236c1582e5cc76419def6cfd2de0bc9, type: 3}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &4433345948819085115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1304, y: -232}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 4433345948819085115}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 8167530927971666847}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 4433345948819085115}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 273942975440216090}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Void Demon
+  DialogueText: Your boss sent an email that morning for a special meeting. You attend
+    believing that you had finally gotten the position you have been hoping for.
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &4529957541826327866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2040, y: -232}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 4529957541826327866}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 273942975440216090}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 4529957541826327866}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -6969892211434635278}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Void Demon
+  DialogueText: You fell into dispair for the rest of the week. You did barely any
+    work, and drank a lot. You went to your therapist on Friday before the party.
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &8167530927971666847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 904, y: -248}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 8167530927971666847}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -2250554041674230091}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 8167530927971666847}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 4433345948819085115}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Void Demon
+  DialogueText: When you heard of this opportunity you worked so hard that you didn't
+    sleep for three days straight. You lived and breathed work.
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &8510069009067352693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -40, y: -280}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 8510069009067352693}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 3071906554250245220}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 8510069009067352693}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -6482014695101505392}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Void Demon
+  DialogueText: 'You got a job with your best friend years ago at your dream company.
+    You worked harder than your friend, but he still got all the recognition... '
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &8652635787282260024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3352, y: -248}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 8652635787282260024}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -8910132705135402642}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 8652635787282260024}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -352518664335160561}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Void Demon
+  DialogueText: You want to hug your friend and congradulate them. Instead of hugging
+    them, you trip on the threshold of the balcony doors, and you push your friend
+    10 stories to their death...
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671154a80fcad0f4e914faff13bece10, type: 3}
+  m_Name: TestDialogueInteraction
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: TestDialogueInteraction
+  <ID>k__BackingField:
+    guidString: d9074849-d2c0-45ba-beb1-4da5f0cc076a
+  <IsActive>k__BackingField: 0
+  <IgnoreIsActiveChanges>k__BackingField: 0
+  dialogueId: test
+  interactionWeight: 0
+  referenceState: 
+  graph: {fileID: 11400000, guid: d096b292b42a4eb43a601bde6ab54bbd, type: 2}
+  dialogueCompleted: 0
+  repeatableDialogue: 1

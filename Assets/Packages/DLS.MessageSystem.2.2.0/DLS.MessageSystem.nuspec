@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>DLS.MessageSystem</id>
+    <version>2.2.0</version>
+    <authors>Monydragon</authors>
+    <license type="file">LICENSE.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/DragonLensStudios/DLS.MessagingSystem</projectUrl>
+    <description>A robust messaging system for applications and games.</description>
+    <releaseNotes>Updated Sending messages to work the Enum again, Cleanup, refactor, and added more tests.
+      Removed Binary formatter for serialize and deserialize,
+      Made working with the MessageChannels enum to work again properly, made a comparer to compare the name.</releaseNotes>
+    <tags>Messaging, System, Game Development</tags>
+    <repository type="git" url="https://github.com/DragonLensStudios/DLS.MessagingSystem" commit="5fcfc0016a042c738a041a3c4c7e79d60a5c45c0" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

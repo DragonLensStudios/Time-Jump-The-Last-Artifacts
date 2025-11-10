@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8249248501465577227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -72, y: -488}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -8249248501465577227}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 8828679101718824404}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -8249248501465577227}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 4631939050184098329}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: ME
+  DialogueText: (I hope this was the right choice...)
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-3000199895514017228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f4a7d20c1aae54e9353afc08ae9d55, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -604.51953, y: -270.15857}
+  ports:
+    keys:
+    - Exit
+    values:
+    - _fieldName: Exit
+      _node: {fileID: -3000199895514017228}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 8828679101718824404}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b9b1e96b931e74c9120553962da057, type: 3}
+  m_Name: Wrath_Intro
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -3000199895514017228}
+  - {fileID: 3011930774781197566}
+  - {fileID: 8828679101718824404}
+  - {fileID: -8249248501465577227}
+  - {fileID: 4631939050184098329}
+  start: {fileID: 0}
+  current: {fileID: 0}
+  initNode: {fileID: 0}
+--- !u!114 &3011930774781197566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bedffd65def3fb4db60c989ff05df2c, type: 3}
+  m_Name: Exit
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 552, y: -152}
+  ports:
+    keys:
+    - Entry
+    values:
+    - _fieldName: Entry
+      _node: {fileID: 3011930774781197566}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 4631939050184098329}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+--- !u!114 &4631939050184098329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 168, y: -168}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 4631939050184098329}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -8249248501465577227}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 4631939050184098329}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Entry
+        node: {fileID: 3011930774781197566}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: KEYMASTER
+  DialogueText: Now let's pick a door! Let's see what prize you get. Oh this is exciting
+    folks!
+  Portrait: {fileID: 21300000, guid: 7236c1582e5cc76419def6cfd2de0bc9, type: 3}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &8828679101718824404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -312, y: -168}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 8828679101718824404}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -3000199895514017228}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 8828679101718824404}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -8249248501465577227}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 
+  TargetID:
+    guidString: 
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: KEYMASTER
+  DialogueText: Oh so Wrath a good choice!
+  Portrait: {fileID: 21300000, guid: 7236c1582e5cc76419def6cfd2de0bc9, type: 3}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0

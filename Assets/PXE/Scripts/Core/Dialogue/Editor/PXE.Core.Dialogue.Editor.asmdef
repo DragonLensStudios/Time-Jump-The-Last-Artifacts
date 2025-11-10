@@ -1,0 +1,16 @@
+{
+    "name": "PXE.Core.Dialogue.Editor",
+    "rootNamespace": "",
+    "references": ["GUID:6ec08b0b0e814e848b92b43aa2b5a920","GUID:002c1bbed08fa44d282ef34fd5edb138","GUID:b8e24fd1eb19b4226afebb2810e3c19b"],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

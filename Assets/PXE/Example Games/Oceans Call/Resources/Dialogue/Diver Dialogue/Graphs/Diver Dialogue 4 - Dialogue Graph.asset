@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6077994528567823994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f4a7d20c1aae54e9353afc08ae9d55, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 40, y: -376}
+  ports:
+    keys:
+    - Exit
+    values:
+    - _fieldName: Exit
+      _node: {fileID: -6077994528567823994}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 6126753516669366119}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 655d2a8e-5555-4eff-b84b-fb86bde7761c
+  TargetID:
+    guidString: 1c3c8283-a1c0-491f-861d-58c5903161ce
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+--- !u!114 &-4889045779869844297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bedffd65def3fb4db60c989ff05df2c, type: 3}
+  m_Name: Exit
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 808, y: -56}
+  ports:
+    keys:
+    - Entry
+    values:
+    - _fieldName: Entry
+      _node: {fileID: -4889045779869844297}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: ExitTrue
+        node: {fileID: 2319387568786708361}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 655d2a8e-5555-4eff-b84b-fb86bde7761c
+  TargetID:
+    guidString: 1c3c8283-a1c0-491f-861d-58c5903161ce
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b9b1e96b931e74c9120553962da057, type: 3}
+  m_Name: Diver Dialogue 4 - Dialogue Graph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6077994528567823994}
+  - {fileID: -4889045779869844297}
+  - {fileID: 6126753516669366119}
+  - {fileID: 5741835899965718052}
+  - {fileID: 2319387568786708361}
+  start: {fileID: 0}
+  current: {fileID: 0}
+  initNode: {fileID: 0}
+--- !u!114 &2319387568786708361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f26e24135bba4fa295f3735c273facc5, type: 3}
+  m_Name: Reference State
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 552, y: -56}
+  ports:
+    keys:
+    - Input
+    - ExitTrue
+    values:
+    - _fieldName: Input
+      _node: {fileID: 2319387568786708361}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 5741835899965718052}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitTrue
+      _node: {fileID: 2319387568786708361}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Entry
+        node: {fileID: -4889045779869844297}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 655d2a8e-5555-4eff-b84b-fb86bde7761c
+  TargetID:
+    guidString: 1c3c8283-a1c0-491f-861d-58c5903161ce
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ReferenceState: p4
+  OverrideSourceID: 0
+  OverrideTargetID: 0
+  OverrideSourceIDValue:
+    guidString: 
+  OverrideTargetIDValue:
+    guidString: 
+--- !u!114 &5741835899965718052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 280, y: -56}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 5741835899965718052}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 6126753516669366119}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 5741835899965718052}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 2319387568786708361}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 655d2a8e-5555-4eff-b84b-fb86bde7761c
+  TargetID:
+    guidString: 1c3c8283-a1c0-491f-861d-58c5903161ce
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Pilf
+  DialogueText: "They\u2019re in the caves now. I\u2019m sure they won\u2019t be
+    able to last much longer. I need to catch up."
+  Portrait: {fileID: 21300000, guid: 3e74060dae907b94895ef651a249d745, type: 3}
+  UseSourceActor: 0
+  UseTargetActor: 1
+  Manual: 0
+  OverridePortrait: 1
+--- !u!114 &6126753516669366119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 280, y: -376}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 6126753516669366119}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -6077994528567823994}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 6126753516669366119}
+      _typeQualifiedName: DLS.Dialogue.Nodes.Connection, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 5741835899965718052}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 655d2a8e-5555-4eff-b84b-fb86bde7761c
+  TargetID:
+    guidString: 1c3c8283-a1c0-491f-861d-58c5903161ce
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Diver
+  DialogueText: It's so dark...
+  Portrait: {fileID: 21300000, guid: e0615e098b680b84abb88d31274959b8, type: 3}
+  UseSourceActor: 1
+  UseTargetActor: 0
+  Manual: 0
+  OverridePortrait: 1

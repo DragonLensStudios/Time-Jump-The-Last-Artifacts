@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7067a8ab7c2592b47b699edabe01510c, type: 3}
+  m_Name: Achievement Manager Settings
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Achievement Manager Settings
+  <ID>k__BackingField:
+    guidString: 41d73abc-f362-44e7-ae4a-3ce323bf68dc
+  <IsActive>k__BackingField: 0
+  <IgnoreIsActiveChanges>k__BackingField: 0
+  <AchievementList>k__BackingField:
+  - {fileID: 11400000, guid: f349ad3e41729af459ee64c0097bf62a, type: 2}
+  - {fileID: 11400000, guid: 0de765262cb2ad24e8242116720c1c91, type: 2}
+  - {fileID: 11400000, guid: 8f9be85807012c3419e3b051fa8420b0, type: 2}
+  - {fileID: 11400000, guid: 39eee974e07636b47b6c9714f7439922, type: 2}
+  - {fileID: 11400000, guid: 21b46519304ab764db79fe77a6a6d8ff, type: 2}
+  - {fileID: 11400000, guid: e249722f89a587543b4d017a809ecca2, type: 2}
+  <DisplayTime>k__BackingField: 3
+  <NumberOnScreen>k__BackingField: 5
+  <ShowExactProgress>k__BackingField: 1
+  <DisplayAchievements>k__BackingField: 1
+  <StackLocation>k__BackingField: 4
+  <SpoilerAchievementMessage>k__BackingField: Hidden
+  <DefaultAchievedSound>k__BackingField: Achievement Unlock 2
+  <DefaultProgressMadeSound>k__BackingField: Achievement Progress
+  <UseFinalAchievement>k__BackingField: 1
+  <FinalAchievementKey>k__BackingField: 

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bea9fe7359dc524e81c3f5accbaad11, type: 3}
+  m_Name: ICTSJ_Dialogue Manager
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: ICTSJ_Dialogue Manager
+  <ID>k__BackingField:
+    guidString: fdd3af26-9b63-4e68-8fcf-b290d3b65cdd
+  <IsManualID>k__BackingField: 0
+  <CurrentReferenceState>k__BackingField: 
+  <CurrentGraph>k__BackingField: {fileID: 0}
+  <CurrentInteraction>k__BackingField: {fileID: 0}
+  <Interactions>k__BackingField:
+  - {fileID: 11400000, guid: d4cf206cc8821df4d98ac464dd412562, type: 2}
+  <UseRandomDialogueSelectionByWeight>k__BackingField: 0

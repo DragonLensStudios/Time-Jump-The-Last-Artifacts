@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc8ef71b9151f1a46ba6b91fc80bf83c, type: 3}
+  m_Name: TJTLA_MainMenuState
+  m_EditorClassIdentifier: PXE.Core::PXE.Core.State_System.MainMenuState
+  <Name>k__BackingField: 
+  <ID>k__BackingField:
+    guidString: 33fa547c-ef3e-4fe6-b6b6-2d0bb932ba0a
+  <IsManualID>k__BackingField: 0
+  <EnterSfx>k__BackingField: {fileID: 0}
+  <ExitSfx>k__BackingField: {fileID: 0}
+  <EnterBgm>k__BackingField: {fileID: 0}
+  <ExitBgm>k__BackingField: {fileID: 0}
+  <MainMenuCanvasPrefab>k__BackingField: {fileID: 2317041552794284887, guid: f2aa558412be25a418a86c389ee77988, type: 3}
+  <MainMenu>k__BackingField: {fileID: 0}

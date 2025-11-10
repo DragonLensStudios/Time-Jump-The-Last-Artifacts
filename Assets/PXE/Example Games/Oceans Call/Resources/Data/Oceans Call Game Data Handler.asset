@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f9c8c17770e6047a97b48ddef19e08, type: 3}
+  m_Name: Oceans Call Game Data Handler
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: 
+  <ID>k__BackingField:
+    guidString: e9cb8d5c-ac1a-4db3-8d5f-561e7710f8b4
+  <IsManualID>k__BackingField: 0
+  <DataPath>k__BackingField: 
+  <DataFileName>k__BackingField: Save
+  <DataExtension>k__BackingField: .save
+  <UseEncryption>k__BackingField: 0
+  <Data>k__BackingField: []

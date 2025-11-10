@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671154a80fcad0f4e914faff13bece10, type: 3}
+  m_Name: Diver Dialogue 6 - Dialogue Interaction
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Diver Dialogue 6 - Dialogue Interaction
+  <ID>k__BackingField:
+    guidString: 8abf1983-8780-4416-a59c-f45af629c3dd
+  <IsActive>k__BackingField: 0
+  <IgnoreIsActiveChanges>k__BackingField: 0
+  dialogueId: D6
+  interactionWeight: 0
+  referenceState: p5
+  graph: {fileID: 11400000, guid: 3211e2aabfe3b9b489edeab1217c808a, type: 2}
+  dialogueCompleted: 0
+  repeatableDialogue: 0

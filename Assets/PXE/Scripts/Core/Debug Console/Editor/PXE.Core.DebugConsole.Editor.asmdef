@@ -1,0 +1,16 @@
+{
+    "name": "PXE.Core.DebugConsole.Editor",
+    "rootNamespace": "",
+    "references": ["GUID:6ec08b0b0e814e848b92b43aa2b5a920","GUID:7820f454dbf61564f9c66348858503a6"],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

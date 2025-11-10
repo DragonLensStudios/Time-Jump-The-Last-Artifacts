@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8687611989989497341
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -866795551723306941, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: isActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -866795551723306941, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: <Name>k__BackingField
+      value: WAH_Exit Game Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5194442825531873542, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5194442825531873542, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: <Name>k__BackingField
+      value: TJTLA_Exit Fullscreen Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5194442825531873542, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: <ID>k__BackingField.guidString
+      value: bbc91034-6716-415a-8a3f-b8235c91027e
+      objectReference: {fileID: 0}
+    - target: {fileID: 5194442825531873542, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: <PrefabID>k__BackingField.guidString
+      value: b844eb6d-c272-4276-a03f-9316e26d6c4f
+      objectReference: {fileID: 0}
+    - target: {fileID: 5415736436185763848, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5415736436185763848, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: <ParentID>k__BackingField.guidString
+      value: bbc91034-6716-415a-8a3f-b8235c91027e
+      objectReference: {fileID: 0}
+    - target: {fileID: 7361980743756395773, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7361980743756395773, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_IgnoreLayout
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269474722087377, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_text
+      value: Exit Fullscreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269474722087377, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269474722087377, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_fontSize
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269474722087377, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269474722087378, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000061035156
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269474722087379, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_Name
+      value: Button Text (Enabled)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269474722087379, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043438, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043438, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043440, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233269475285043441, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}
+      propertyPath: m_Name
+      value: ICTSJ_Exit Fullscreen Button
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 259d74c5e05a3e5da99ee2181344fadf, type: 3}

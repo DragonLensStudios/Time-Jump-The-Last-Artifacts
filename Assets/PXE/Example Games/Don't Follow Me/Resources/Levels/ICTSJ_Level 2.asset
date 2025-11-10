@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88db9970722648bf83131a1b52c20ef2, type: 3}
+  m_Name: ICTSJ_Level 2
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Level 2
+  <ID>k__BackingField:
+    guidString: 5cabcc76-0c65-46e7-84bc-1c7f7e310181
+  <IsManualID>k__BackingField: 0
+  <LevelPrefab>k__BackingField: {fileID: 7034839262630018937, guid: ce9b65b229ac9324eb158f24438b471d, type: 3}
+  <PlayerSpawnPosition>k__BackingField: {x: 0, y: 2}
+  <LevelState>k__BackingField: 0
+  <EnterSfx>k__BackingField: {fileID: 0}
+  <ExitSfx>k__BackingField: {fileID: 0}
+  <EnterBgm>k__BackingField: {fileID: 0}
+  <ExitBgm>k__BackingField: {fileID: 0}
+  <ResetSfx>k__BackingField: {fileID: 0}
+  <ResetBgm>k__BackingField: {fileID: 0}
+  spawnedLevel: {fileID: 0}

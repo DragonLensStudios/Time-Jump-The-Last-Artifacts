@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671154a80fcad0f4e914faff13bece10, type: 3}
+  m_Name: DFM_Lvl 2_Interaction 2
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Start Interaction
+  <ID>k__BackingField:
+    guidString: a1acd368-018f-4997-84f7-450f5cb17ffd
+  <IsManualID>k__BackingField: 0
+  dialogueId: 
+  interactionWeight: 0
+  referenceState: 
+  graph: {fileID: 11400000, guid: af4c7f0b2a5972e48b9f3ad48c2165bb, type: 2}
+  dialogueCompleted: 0
+  repeatableDialogue: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88db9970722648bf83131a1b52c20ef2, type: 3}
+  m_Name: WAH_F1 Debug for Michael
+  m_EditorClassIdentifier: 
+  <ID>k__BackingField:
+    guidString: 0de6c069-3924-471b-9f23-ad6f0d6810b5
+  <Name>k__BackingField: F1 Debug for Michael
+  <LevelPrefab>k__BackingField: {fileID: 4012662514637304950, guid: 5dee67faaf2302833a79cb7bb9c7a1e3, type: 3}
+  <PlayerSpawnPosition>k__BackingField: {x: 10, y: 10}
+  <LevelState>k__BackingField: 0
+  <EnterSfx>k__BackingField: {fileID: 0}
+  <ExitSfx>k__BackingField: {fileID: 0}
+  <EnterBgm>k__BackingField: {fileID: 0}
+  <ExitBgm>k__BackingField: {fileID: 0}
+  <ResetSfx>k__BackingField: {fileID: 0}
+  <ResetBgm>k__BackingField: {fileID: 0}
+  spawnedLevel: {fileID: 0}

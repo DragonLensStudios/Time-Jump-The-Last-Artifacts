@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bea9fe7359dc524e81c3f5accbaad11, type: 3}
+  m_Name: BGJ Dialogue Manager
+  m_EditorClassIdentifier: 
+  <CurrentReferenceState>k__BackingField: 
+  <CurrentGraph>k__BackingField: {fileID: 0}
+  <CurrentInteraction>k__BackingField: {fileID: 0}
+  <Interactions>k__BackingField:
+  - {fileID: 11400000, guid: 57faf1f4be7f10640a2de6141ee2ac05, type: 2}
+  - {fileID: 11400000, guid: 2001d3b4c204c0f4ba76ca84132bcd2a, type: 2}
+  - {fileID: 11400000, guid: 6c147ea4795a8204eb72b55a1e2c8258, type: 2}
+  - {fileID: 11400000, guid: c12386eb34d79894c87ddb623c23ed6a, type: 2}
+  - {fileID: 11400000, guid: 343a2a5680d3efd4aa8ee7ca7afca985, type: 2}
+  - {fileID: 11400000, guid: bd824ccb5344d2440b1967a2077b8892, type: 2}
+  <UseRandomDialogueSelectionByWeight>k__BackingField: 0

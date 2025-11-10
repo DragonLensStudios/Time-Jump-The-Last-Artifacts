@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671154a80fcad0f4e914faff13bece10, type: 3}
+  m_Name: Wrath_B_Interaction
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Wrath_B_Interaction
+  <ID>k__BackingField:
+    guidString: 6cf8f2ee-cb4a-4fde-9ac9-132a15d33107
+  <IsActive>k__BackingField: 0
+  <IgnoreIsActiveChanges>k__BackingField: 0
+  dialogueId: Wrath B Interaction
+  interactionWeight: 0
+  referenceState: 
+  graph: {fileID: 11400000, guid: 4aca3b933ca625d4a901b479bad4ef20, type: 2}
+  dialogueCompleted: 0
+  repeatableDialogue: 0

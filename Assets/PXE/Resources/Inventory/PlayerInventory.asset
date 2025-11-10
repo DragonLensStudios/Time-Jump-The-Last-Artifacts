@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e607241c2eeae4ea84ce0f05a31460, type: 3}
+  m_Name: PlayerInventory
+  m_EditorClassIdentifier: 
+  <ID>k__BackingField:
+    guidString: 3e2add44-0bbb-4994-9129-aec796fae86e
+  <Name>k__BackingField: Player Inventory
+  <Items>k__BackingField:
+  - <ID>k__BackingField:
+      guidString: 2fccd295-97d5-4308-a4d7-22eb705a6a35
+    <Item>k__BackingField: {fileID: 11400000, guid: 6310cb01dd8d5da4e8f65598a56a7dcd, type: 2}
+    <Quantity>k__BackingField: 5
+  - <ID>k__BackingField:
+      guidString: d1e5c696-7082-4968-a5cb-6e5a1195460b
+    <Item>k__BackingField: {fileID: 11400000, guid: c5e0f01bfa229a7419d4345db3a82918, type: 2}
+    <Quantity>k__BackingField: 88
+  - <ID>k__BackingField:
+      guidString: 11f86107-dae5-4ffa-92ce-a97cd712d831
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: c208b8b5-5947-4c94-9bb5-31b6244aa55a
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 25638445-d11d-483c-a111-47e2bddcfd42
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 034387f7-bcb9-44c5-a8dc-472c09d20e32
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 368dbc50-5266-4424-8725-afd1bf639cac
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 2ccfae27-b5db-43c0-848e-e665d70b793f
+    <Item>k__BackingField: {fileID: 11400000, guid: a9113af518abf96428f99ffbaabd3070, type: 2}
+    <Quantity>k__BackingField: 1
+  - <ID>k__BackingField:
+      guidString: fd26cd20-20c1-4d06-af3c-5a97f1428f82
+    <Item>k__BackingField: {fileID: 11400000, guid: 249a549565d94dc4a9e72820f85a406d, type: 2}
+    <Quantity>k__BackingField: 10
+  - <ID>k__BackingField:
+      guidString: 2582d2cd-d472-4085-82f7-70890ac6805a
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 99eee993-a933-44e3-9c14-8df16952225a
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: de345835-af7c-4ad8-a316-ed79b4d06108
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: c7f175a1-6073-4615-9d1c-b9c78c39142d
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 148bd5fb-dc9e-46f1-86fa-622d91798696
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: f0977ca9-7e5a-4f19-983b-be5dca369459
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: e4419a5a-df57-4166-b5a2-603d30105d50
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 8d02d676-2798-40ed-ac8c-abc9b030588a
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 87831b93-653d-4fc9-bdc3-cbe99ffca537
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: e8d989a9-5a96-49d4-a26c-51c19e39b79c
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 08936534-ce17-4c19-b7c5-86c036f3fe14
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 96338b4d-3798-4d4f-b5e8-c71c6f581323
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 751ce5fb-fc6d-4b43-8852-fa4d2a88a434
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: f03a5609-9562-4203-9ab0-76c7a7eb20ba
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 00ab1cab-5c70-4eb6-bb39-5e53c480d265
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: bdbea694-c020-49f6-8a02-619acd0371de
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 574cc60c-5ea3-402f-a1fc-71dd1026a71f
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 585224ea-f8db-4a3b-abf7-a7fcdd53c1ce
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 02e9f928-e687-4f3f-97db-9d51fab428d5
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 5e0f19f4-283b-4266-b1a1-5a0e1d1af4a6
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 54730361-5b2e-4e16-8668-a7028181b99f
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 7928f760-8e9e-41a0-bc85-b210900138d5
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 14775f3c-2cf1-432f-bcf0-34b8f1e13c76
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 6cea61d1-7a50-4b45-80e3-2b81380937fe
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 2eb0eaf1-e072-43cc-9133-dbe294feed2b
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: dc3a3bcc-88f8-4052-8e4e-9569842d3d05
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 5c7f4e4c-7080-4769-a5cd-b9cae6e2bdf0
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: dffcba0d-3553-4afb-b247-d7c2854ba2f9
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 4b4e5bd6-b63e-441c-a07d-8190604434c3
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: b69b278e-a962-40bc-a17e-6de0db353570
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 45a2150b-ca01-458d-8a58-386880ddd453
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: e54d9332-508b-4ad4-816b-6544b6154892
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 7a474dfa-1199-45e3-8c6e-0b8778d4c753
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: b1d0458d-d458-47d6-8b78-9f76548da83f
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 389dff46-78ca-4e2d-8255-3f3551699dbd
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 85ec6487-e14e-4202-b6ab-b29ab95f43ba
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 8d2db6d2-84fd-4ee4-b8ab-9c58988c1f3b
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 22a80dc3-95a0-4598-adf0-e5fab1279e8d
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 7dc314ec-6073-4c08-a7c1-b4ded8cc5574
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: 3b7dbc45-d1b1-4ef8-9f2d-55ebad06473e
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  - <ID>k__BackingField:
+      guidString: cc20584b-759a-458c-8d1c-411246046103
+    <Item>k__BackingField: {fileID: 0}
+    <Quantity>k__BackingField: 0
+  <Currency>k__BackingField:
+    <Copper>k__BackingField:
+      <Type>k__BackingField: 0
+      <Value>k__BackingField: 0
+      <IsTieredCurrency>k__BackingField: 1
+      <Threshold>k__BackingField: 100
+      <CurrencyIcon>k__BackingField: {fileID: 0}
+    <Silver>k__BackingField:
+      <Type>k__BackingField: 1
+      <Value>k__BackingField: 0
+      <IsTieredCurrency>k__BackingField: 1
+      <Threshold>k__BackingField: 100
+      <CurrencyIcon>k__BackingField: {fileID: 0}
+    <Gold>k__BackingField:
+      <Type>k__BackingField: 2
+      <Value>k__BackingField: 0
+      <IsTieredCurrency>k__BackingField: 1
+      <Threshold>k__BackingField: 100
+      <CurrencyIcon>k__BackingField: {fileID: 0}
+    <Platinum>k__BackingField:
+      <Type>k__BackingField: 3
+      <Value>k__BackingField: 0
+      <IsTieredCurrency>k__BackingField: 0
+      <Threshold>k__BackingField: 0
+      <CurrencyIcon>k__BackingField: {fileID: 0}
+  <MaxSlots>k__BackingField: 100
+  <UseWeight>k__BackingField: 0
+  <MaxWeight>k__BackingField: 500
+  <CurrentWeight>k__BackingField: 0
+  <UseStartingSlots>k__BackingField: 1
+  <StartingSlots>k__BackingField: 50
+  <UseMaxSlots>k__BackingField: 1
+  <UseMaxWeight>k__BackingField: 1

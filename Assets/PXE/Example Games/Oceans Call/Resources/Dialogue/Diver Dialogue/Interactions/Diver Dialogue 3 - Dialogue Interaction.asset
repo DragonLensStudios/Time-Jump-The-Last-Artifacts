@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671154a80fcad0f4e914faff13bece10, type: 3}
+  m_Name: Diver Dialogue 3 - Dialogue Interaction
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Diver Dialogue 3 - Dialogue Interaction
+  <ID>k__BackingField:
+    guidString: 7df67a45-9453-4a57-be13-71933b4d1fb2
+  <IsActive>k__BackingField: 0
+  <IgnoreIsActiveChanges>k__BackingField: 0
+  dialogueId: D3
+  interactionWeight: 0
+  referenceState: p2
+  graph: {fileID: 11400000, guid: 51e302f89245efb4c818e04aab818a3f, type: 2}
+  dialogueCompleted: 0
+  repeatableDialogue: 0

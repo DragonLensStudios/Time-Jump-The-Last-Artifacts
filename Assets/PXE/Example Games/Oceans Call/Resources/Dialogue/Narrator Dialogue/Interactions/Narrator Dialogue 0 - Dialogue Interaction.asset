@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671154a80fcad0f4e914faff13bece10, type: 3}
+  m_Name: Narrator Dialogue 0 - Dialogue Interaction
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Narrator Dialogue 0 - Dialogue Interaction
+  <ID>k__BackingField:
+    guidString: 2a65a86a-93b0-48f7-b6e0-c59c5faca764
+  <IsActive>k__BackingField: 0
+  <IgnoreIsActiveChanges>k__BackingField: 0
+  dialogueId: N0
+  interactionWeight: 0
+  referenceState: 
+  graph: {fileID: 11400000, guid: 5180523e2a8742d4bb88209f254d50fe, type: 2}
+  dialogueCompleted: 0
+  repeatableDialogue: 0

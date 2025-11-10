@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bea9fe7359dc524e81c3f5accbaad11, type: 3}
+  m_Name: WAH_Dialogue Manager
+  m_EditorClassIdentifier: 
+  <CurrentReferenceState>k__BackingField: 
+  <CurrentGraph>k__BackingField: {fileID: 0}
+  <CurrentInteraction>k__BackingField: {fileID: 0}
+  <Interactions>k__BackingField:
+  - {fileID: 11400000, guid: 5b7731126b6a2804f8948fe7e08522a1, type: 2}
+  - {fileID: 11400000, guid: 318b524f411cedb4d94f29010ea03d29, type: 2}
+  <UseRandomDialogueSelectionByWeight>k__BackingField: 0

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2543170217425700509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7307801533042015484}
+  - component: {fileID: 6120090970061855218}
+  - component: {fileID: 767770926590166595}
+  m_Layer: 0
+  m_Name: BGJ Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7307801533042015484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2543170217425700509}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6120090970061855218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2543170217425700509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63e3e06b1d909143b43357b98e47323, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: BGJ Audio Manager
+  <ID>k__BackingField:
+    guidString: d1916793-a8f2-4236-93ab-492cb4c918d9
+  <IsManualID>k__BackingField: 0
+  <ParentID>k__BackingField:
+    guidString: 00000000-0000-0000-0000-000000000000
+  <IsInitialized>k__BackingField: 0
+  isActive: 1
+  activeType: 0
+  behaviorActiveType: 0
+  <VolumeThreshold>k__BackingField: -80
+  <Mixer>k__BackingField: {fileID: 24100000, guid: 694cfcc67bec2d840bcdbd61016ef098, type: 2}
+  <Music>k__BackingField:
+  - {fileID: 11400000, guid: 3005f06d507e6f94a9d569ba26da4480, type: 2}
+  - {fileID: 11400000, guid: db163924a97661c44b7ea43a8d572eb1, type: 2}
+  - {fileID: 11400000, guid: 9e589f279a35932428ea2e58c29ed119, type: 2}
+  <SoundEffects>k__BackingField:
+  - {fileID: 11400000, guid: 026c5844eacab4740836b39e022b0fa8, type: 2}
+  - {fileID: 11400000, guid: 5541874db87f41a44b7e0dfac870c2fe, type: 2}
+  - {fileID: 11400000, guid: 3e2a3b5cb854f50468cbf13c1799a154, type: 2}
+  - {fileID: 11400000, guid: dc1347852b45b3840a09741b916c119e, type: 2}
+  - {fileID: 11400000, guid: 7c227dff224007647929699f9d2ed9e4, type: 2}
+  - {fileID: 11400000, guid: 790cd001553fc4e4994ee3693025950b, type: 2}
+  - {fileID: 11400000, guid: 66c781a91bd694c4d9d7e8eb79218735, type: 2}
+  - {fileID: 11400000, guid: ba3908138bf142848b5b13bcfbbdb28f, type: 2}
+  <CurrentlyPlayingSfx>k__BackingField: []
+  <CurrentlyPlayingMusic>k__BackingField: []
+--- !u!114 &767770926590166595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2543170217425700509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8317b341ec1eb224fa665b0993da529c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: BGJ Audio Manager
+  <ID>k__BackingField:
+    guidString: d1916793-a8f2-4236-93ab-492cb4c918d9
+  <IsManualID>k__BackingField: 0
+  <ParentID>k__BackingField:
+    guidString: 00000000-0000-0000-0000-000000000000
+  <IsInitialized>k__BackingField: 0
+  isActive: 1
+  activeType: 0
+  behaviorActiveType: 0
+  <GameStartAudio>k__BackingField: {fileID: 11400000, guid: 9e589f279a35932428ea2e58c29ed119, type: 2}

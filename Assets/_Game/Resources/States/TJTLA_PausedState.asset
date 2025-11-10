@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ee08b0343c45e7b4dd0e877641b8e2, type: 3}
+  m_Name: TJTLA_PausedState
+  m_EditorClassIdentifier: PXE.Core::PXE.Core.State_System.PausedState
+  <Name>k__BackingField: 
+  <ID>k__BackingField:
+    guidString: 1d96ff7a-3c44-4f91-aeb0-c9ccd244fa6e
+  <IsManualID>k__BackingField: 0
+  <EnterSfx>k__BackingField: {fileID: 0}
+  <ExitSfx>k__BackingField: {fileID: 0}
+  <EnterBgm>k__BackingField: {fileID: 0}
+  <ExitBgm>k__BackingField: {fileID: 0}
+  <PauseMenuCanvasPrefab>k__BackingField: {fileID: 2317041552794284887, guid: d7e4b55eb5194804b80feb9db5904613, type: 3}
+  <PauseMenu>k__BackingField: {fileID: 0}

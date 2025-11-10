@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7067a8ab7c2592b47b699edabe01510c, type: 3}
+  m_Name: WAH_Achievement Manager Settings
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: WAH_Achievement Manager Settings
+  <ID>k__BackingField:
+    guidString: fcc9b320-678a-40e9-b46c-a936de8186ef
+  <IsActive>k__BackingField: 0
+  <IgnoreIsActiveChanges>k__BackingField: 0
+  <AchievementList>k__BackingField: []
+  <DisplayTime>k__BackingField: 3
+  <NumberOnScreen>k__BackingField: 3
+  <ShowExactProgress>k__BackingField: 0
+  <DisplayAchievements>k__BackingField: 0
+  <StackLocation>k__BackingField: 0
+  <SpoilerAchievementMessage>k__BackingField: Hidden
+  <DefaultAchievedSound>k__BackingField: 
+  <DefaultProgressMadeSound>k__BackingField: 
+  <UseFinalAchievement>k__BackingField: 0
+  <FinalAchievementKey>k__BackingField: 

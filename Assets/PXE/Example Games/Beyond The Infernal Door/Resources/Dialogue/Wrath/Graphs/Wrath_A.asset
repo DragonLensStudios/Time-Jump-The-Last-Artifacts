@@ -1,0 +1,2075 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8677806725414521840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4472, y: -296}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -8677806725414521840}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 721553218889903220}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -8677806725414521840}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -485850092469922842}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: ME
+  DialogueText: (I have a bad feeling about this...)
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-6725633197701367817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f0a501510564880af2b7efb55b5c3f6, type: 3}
+  m_Name: Message Sender
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5848, y: -408}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -6725633197701367817}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: ExitTrue
+        node: {fileID: -914794494697765366}
+        reroutePoints: []
+      - fieldName: ExitFalse
+        node: {fileID: -914794494697765366}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -6725633197701367817}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Entry
+        node: {fileID: 3011930774781197566}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  Channel: 4
+  MessageConfig: {fileID: 11400000, guid: b58a687aee1b697419372f1c7b0952fa, type: 2}
+  SendAction: 0
+--- !u!114 &-6670138612307467365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2312, y: -296}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -6670138612307467365}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 7994195194606489493}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -6670138612307467365}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -2022481953389943349}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: ME
+  DialogueText: These questions are getting kind of personal aren't they?
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-6431747520735768777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -229.72125, y: -237.08968}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -6431747520735768777}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -3000199895514017228}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -6431747520735768777}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -3349897587770003942}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: ???
+  DialogueText: 'You were a good hard working person, who lived in your friend''s
+    shadow. How unfortunate! '
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-5624193395168545953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f0a501510564880af2b7efb55b5c3f6, type: 3}
+  m_Name: Message Sender
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1928, y: -504}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -5624193395168545953}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: ExitTrue
+        node: {fileID: 5875131045374531569}
+        reroutePoints: []
+      - fieldName: ExitFalse
+        node: {fileID: 5875131045374531569}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -5624193395168545953}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 7994195194606489493}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  Channel: 4
+  MessageConfig: {fileID: 11400000, guid: b58a687aee1b697419372f1c7b0952fa, type: 2}
+  SendAction: 0
+--- !u!114 &-3349897587770003942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 120, y: -232}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -3349897587770003942}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -6431747520735768777}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -3349897587770003942}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -960730486501840590}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: ME
+  DialogueText: Who was that?
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-3000199895514017228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f4a7d20c1aae54e9353afc08ae9d55, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -604.51953, y: -270.15857}
+  ports:
+    keys:
+    - Exit
+    values:
+    - _fieldName: Exit
+      _node: {fileID: -3000199895514017228}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -6431747520735768777}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+--- !u!114 &-2788434557595588638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd70b2f22da00d642a11feaf79c62f94, type: 3}
+  m_Name: Choice Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2952, y: -360}
+  ports:
+    keys:
+    - Input
+    - Answers
+    - Answers 0
+    - Answers 1
+    values:
+    - _fieldName: Input
+      _node: {fileID: -2788434557595588638}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -2022481953389943349}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -2788434557595588638}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: -2788434557595588638}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Input
+        node: {fileID: 6655115886894753953}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Answers 1
+      _node: {fileID: -2788434557595588638}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Input
+        node: {fileID: -590141917233706258}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  Answers:
+  - Yes
+  - No
+  ActorName: 
+  Portrait: {fileID: 0}
+  DialogueText: Yes or No
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 0
+  OverridePortrait: 0
+--- !u!114 &-2250331227517565073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1480, y: -360}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -2250331227517565073}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: 2485502705146308462}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -2250331227517565073}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 5875131045374531569}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: KEYMASTER
+  DialogueText: Oh No that's a wrong answer bud! Let's have our lovely void demon
+    ask another question!
+  Portrait: {fileID: 21300000, guid: 7236c1582e5cc76419def6cfd2de0bc9, type: 3}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-2197027743878142230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd70b2f22da00d642a11feaf79c62f94, type: 3}
+  m_Name: Choice Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5272, y: -328}
+  ports:
+    keys:
+    - Input
+    - Answers
+    - Answers 0
+    - Answers 1
+    values:
+    - _fieldName: Input
+      _node: {fileID: -2197027743878142230}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -485850092469922842}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -2197027743878142230}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: -2197027743878142230}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Input
+        node: {fileID: -914794494697765366}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Answers 1
+      _node: {fileID: -2197027743878142230}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Input
+        node: {fileID: -302149960723886859}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  Answers:
+  - Yes
+  - No
+  ActorName: 
+  Portrait: {fileID: 0}
+  DialogueText: Yes or No
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 0
+  OverridePortrait: 0
+--- !u!114 &-2022481953389943349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2568, y: -280}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -2022481953389943349}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -6670138612307467365}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -2022481953389943349}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -2788434557595588638}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: KEYMASTER
+  DialogueText: Just answer the question pal...
+  Portrait: {fileID: 21300000, guid: 7236c1582e5cc76419def6cfd2de0bc9, type: 3}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-1273971548358632914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f0a501510564880af2b7efb55b5c3f6, type: 3}
+  m_Name: Message Sender
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4216, y: -664}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -1273971548358632914}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: ExitTrue
+        node: {fileID: -905557199390781668}
+        reroutePoints: []
+      - fieldName: ExitFalse
+        node: {fileID: -905557199390781668}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -1273971548358632914}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 721553218889903220}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  Channel: 4
+  MessageConfig: {fileID: 11400000, guid: b58a687aee1b697419372f1c7b0952fa, type: 2}
+  SendAction: 0
+--- !u!114 &-1031419625961322992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 039b45edb5624abb9dd9790015cd0772, type: 3}
+  m_Name: Variable
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1704, y: 120.00001}
+  ports:
+    keys:
+    - Input
+    - ExitTrue
+    - ExitFalse
+    values:
+    - _fieldName: Input
+      _node: {fileID: -1031419625961322992}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 7768038543315490694}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitTrue
+      _node: {fileID: -1031419625961322992}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 1967280794446616079}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitFalse
+      _node: {fileID: -1031419625961322992}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 1967280794446616079}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 11400000, guid: 313345dd61431464587e8d81bab662cf, type: 2}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  VariableName: WrathProgress
+  VariableType: 0
+  SerializedVariableValue: 1
+  OperatorType: 0
+--- !u!114 &-960730486501840590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 472, y: -232}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -960730486501840590}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -3349897587770003942}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -960730486501840590}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -21120963074603732}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: ???
+  DialogueText: 'Now I''ll ask a question! '
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-914794494697765366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 039b45edb5624abb9dd9790015cd0772, type: 3}
+  m_Name: Variable
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5624, y: -408}
+  ports:
+    keys:
+    - Input
+    - ExitTrue
+    - ExitFalse
+    values:
+    - _fieldName: Input
+      _node: {fileID: -914794494697765366}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: -2197027743878142230}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitTrue
+      _node: {fileID: -914794494697765366}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -6725633197701367817}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitFalse
+      _node: {fileID: -914794494697765366}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -6725633197701367817}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 11400000, guid: 313345dd61431464587e8d81bab662cf, type: 2}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  VariableName: WrathFailure
+  VariableType: 0
+  SerializedVariableValue: 1
+  OperatorType: 0
+--- !u!114 &-905557199390781668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 039b45edb5624abb9dd9790015cd0772, type: 3}
+  m_Name: Variable
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3992, y: -664}
+  ports:
+    keys:
+    - Input
+    - ExitTrue
+    - ExitFalse
+    values:
+    - _fieldName: Input
+      _node: {fileID: -905557199390781668}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: ExitTrue
+        node: {fileID: 3548679123206274850}
+        reroutePoints: []
+      - fieldName: ExitFalse
+        node: {fileID: 3548679123206274850}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitTrue
+      _node: {fileID: -905557199390781668}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -1273971548358632914}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitFalse
+      _node: {fileID: -905557199390781668}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -1273971548358632914}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 11400000, guid: 313345dd61431464587e8d81bab662cf, type: 2}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  VariableName: WrathFailure
+  VariableType: 0
+  SerializedVariableValue: 1
+  OperatorType: 0
+--- !u!114 &-590141917233706258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3288, y: -120}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -590141917233706258}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Answers 1
+        node: {fileID: -2788434557595588638}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -590141917233706258}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 5505072260430440637}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: KEYMASTER
+  DialogueText: A true friend! It almost brings a tear to this old demon's eye. Well,
+    almost being a keyword haha, am I right folks?
+  Portrait: {fileID: 21300000, guid: 7236c1582e5cc76419def6cfd2de0bc9, type: 3}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-485850092469922842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4760, y: -312}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -485850092469922842}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -8677806725414521840}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -485850092469922842}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -2197027743878142230}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: ???
+  DialogueText: Is it true that you killed your best friend to get revenge for them
+    taking your dream job? You worked hard for it afterall~
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &-302149960723886859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 039b45edb5624abb9dd9790015cd0772, type: 3}
+  m_Name: Variable
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5624, y: -104}
+  ports:
+    keys:
+    - Input
+    - ExitTrue
+    - ExitFalse
+    values:
+    - _fieldName: Input
+      _node: {fileID: -302149960723886859}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Answers 1
+        node: {fileID: -2197027743878142230}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitTrue
+      _node: {fileID: -302149960723886859}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 5512456592232351166}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitFalse
+      _node: {fileID: -302149960723886859}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 5512456592232351166}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 11400000, guid: 313345dd61431464587e8d81bab662cf, type: 2}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  VariableName: WrathProgress
+  VariableType: 0
+  SerializedVariableValue: 1
+  OperatorType: 0
+--- !u!114 &-21120963074603732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 776, y: -232}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: -21120963074603732}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -960730486501840590}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: -21120963074603732}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 2485502705146308462}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: ???
+  DialogueText: If I was a drunk driver and I hit a car, would I be at fault or was
+    it the alcohol?
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b9b1e96b931e74c9120553962da057, type: 3}
+  m_Name: Wrath_A
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -3000199895514017228}
+  - {fileID: 3011930774781197566}
+  - {fileID: -6431747520735768777}
+  - {fileID: -3349897587770003942}
+  - {fileID: -960730486501840590}
+  - {fileID: -21120963074603732}
+  - {fileID: 2485502705146308462}
+  - {fileID: -2250331227517565073}
+  - {fileID: 7768038543315490694}
+  - {fileID: -1031419625961322992}
+  - {fileID: 1967280794446616079}
+  - {fileID: 7994195194606489493}
+  - {fileID: -6670138612307467365}
+  - {fileID: -2022481953389943349}
+  - {fileID: -2788434557595588638}
+  - {fileID: 6655115886894753953}
+  - {fileID: 3548679123206274850}
+  - {fileID: -590141917233706258}
+  - {fileID: 5505072260430440637}
+  - {fileID: 721553218889903220}
+  - {fileID: -8677806725414521840}
+  - {fileID: -2197027743878142230}
+  - {fileID: -485850092469922842}
+  - {fileID: 188002873423688807}
+  - {fileID: 1138438507409019359}
+  - {fileID: -302149960723886859}
+  - {fileID: 5512456592232351166}
+  - {fileID: -914794494697765366}
+  - {fileID: -6725633197701367817}
+  - {fileID: -905557199390781668}
+  - {fileID: -1273971548358632914}
+  - {fileID: 5875131045374531569}
+  - {fileID: -5624193395168545953}
+  start: {fileID: 0}
+  current: {fileID: 2485502705146308462}
+  initNode: {fileID: 0}
+--- !u!114 &188002873423688807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 039b45edb5624abb9dd9790015cd0772, type: 3}
+  m_Name: Variable
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3848, y: -8}
+  ports:
+    keys:
+    - Input
+    - ExitTrue
+    - ExitFalse
+    values:
+    - _fieldName: Input
+      _node: {fileID: 188002873423688807}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: ExitFalse
+        node: {fileID: 5505072260430440637}
+        reroutePoints: []
+      - fieldName: ExitTrue
+        node: {fileID: 5505072260430440637}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitTrue
+      _node: {fileID: 188002873423688807}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 1138438507409019359}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitFalse
+      _node: {fileID: 188002873423688807}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 1138438507409019359}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 11400000, guid: 313345dd61431464587e8d81bab662cf, type: 2}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  VariableName: WrathProgress
+  VariableType: 0
+  SerializedVariableValue: 1
+  OperatorType: 0
+--- !u!114 &721553218889903220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4216, y: -312}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 721553218889903220}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 1138438507409019359}
+        reroutePoints: []
+      - fieldName: Exit
+        node: {fileID: -1273971548358632914}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 721553218889903220}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -8677806725414521840}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: KEYMASTER
+  DialogueText: Now Let's have our final question before our favorite time of the
+    night! The reveal! Now void demon, ask your question!
+  Portrait: {fileID: 21300000, guid: 7236c1582e5cc76419def6cfd2de0bc9, type: 3}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &1138438507409019359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f0a501510564880af2b7efb55b5c3f6, type: 3}
+  m_Name: Message Sender
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4072, y: 56}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 1138438507409019359}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: ExitTrue
+        node: {fileID: 188002873423688807}
+        reroutePoints: []
+      - fieldName: ExitFalse
+        node: {fileID: 188002873423688807}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 1138438507409019359}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 721553218889903220}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  Channel: 4
+  MessageConfig: {fileID: 11400000, guid: b58a687aee1b697419372f1c7b0952fa, type: 2}
+  SendAction: 0
+--- !u!114 &1967280794446616079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f0a501510564880af2b7efb55b5c3f6, type: 3}
+  m_Name: Message Sender
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1944, y: 120}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 1967280794446616079}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: ExitFalse
+        node: {fileID: -1031419625961322992}
+        reroutePoints: []
+      - fieldName: ExitTrue
+        node: {fileID: -1031419625961322992}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 1967280794446616079}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 7994195194606489493}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  Channel: 4
+  MessageConfig: {fileID: 11400000, guid: b58a687aee1b697419372f1c7b0952fa, type: 2}
+  SendAction: 0
+--- !u!114 &2485502705146308462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd70b2f22da00d642a11feaf79c62f94, type: 3}
+  m_Name: Choice Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1144, y: -264}
+  ports:
+    keys:
+    - Input
+    - Answers
+    - Answers 0
+    - Answers 1
+    values:
+    - _fieldName: Input
+      _node: {fileID: 2485502705146308462}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -21120963074603732}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 2485502705146308462}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: 2485502705146308462}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Input
+        node: {fileID: -2250331227517565073}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Answers 1
+      _node: {fileID: 2485502705146308462}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Input
+        node: {fileID: 7768038543315490694}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  Answers:
+  - Alcohol
+  - Me
+  ActorName: 
+  Portrait: {fileID: 0}
+  DialogueText: I'm at fault, or the Alcohol is at fault...
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 0
+  OverridePortrait: 0
+--- !u!114 &3011930774781197566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bedffd65def3fb4db60c989ff05df2c, type: 3}
+  m_Name: Exit
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6456, y: -232}
+  ports:
+    keys:
+    - Entry
+    values:
+    - _fieldName: Entry
+      _node: {fileID: 3011930774781197566}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 5512456592232351166}
+        reroutePoints: []
+      - fieldName: Exit
+        node: {fileID: -6725633197701367817}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+--- !u!114 &3548679123206274850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b12dccb0691a5d641b3df0e47e3bc86f, type: 3}
+  m_Name: Audio
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3608, y: -664}
+  ports:
+    keys:
+    - Input
+    - ExitTrue
+    - ExitFalse
+    values:
+    - _fieldName: Input
+      _node: {fileID: 3548679123206274850}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 6655115886894753953}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitTrue
+      _node: {fileID: 3548679123206274850}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -905557199390781668}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitFalse
+      _node: {fileID: 3548679123206274850}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -905557199390781668}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  Audio: {fileID: 11400000, guid: dc1347852b45b3840a09741b916c119e, type: 2}
+  AudioChannel: 2
+  AudioOperation: 0
+  UseRandomVolume: 0
+  UseRandomPitch: 0
+  AudioVolume: 1
+  AudioPitch: 1
+--- !u!114 &5505072260430440637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b12dccb0691a5d641b3df0e47e3bc86f, type: 3}
+  m_Name: Audio
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3560, y: -88}
+  ports:
+    keys:
+    - Input
+    - ExitTrue
+    - ExitFalse
+    values:
+    - _fieldName: Input
+      _node: {fileID: 5505072260430440637}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -590141917233706258}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitTrue
+      _node: {fileID: 5505072260430440637}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 188002873423688807}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitFalse
+      _node: {fileID: 5505072260430440637}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 188002873423688807}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  Audio: {fileID: 11400000, guid: 3e2a3b5cb854f50468cbf13c1799a154, type: 2}
+  AudioChannel: 2
+  AudioOperation: 0
+  UseRandomVolume: 0
+  UseRandomPitch: 0
+  AudioVolume: 1
+  AudioPitch: 1
+--- !u!114 &5512456592232351166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f0a501510564880af2b7efb55b5c3f6, type: 3}
+  m_Name: Message Sender
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5848, y: -104}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 5512456592232351166}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: ExitTrue
+        node: {fileID: -302149960723886859}
+        reroutePoints: []
+      - fieldName: ExitFalse
+        node: {fileID: -302149960723886859}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 5512456592232351166}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Entry
+        node: {fileID: 3011930774781197566}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  Channel: 4
+  MessageConfig: {fileID: 11400000, guid: b58a687aee1b697419372f1c7b0952fa, type: 2}
+  SendAction: 0
+--- !u!114 &5875131045374531569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 039b45edb5624abb9dd9790015cd0772, type: 3}
+  m_Name: Variable
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1704, y: -504}
+  ports:
+    keys:
+    - Input
+    - ExitTrue
+    - ExitFalse
+    values:
+    - _fieldName: Input
+      _node: {fileID: 5875131045374531569}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: -2250331227517565073}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitTrue
+      _node: {fileID: 5875131045374531569}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -5624193395168545953}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ExitFalse
+      _node: {fileID: 5875131045374531569}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -5624193395168545953}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 11400000, guid: 313345dd61431464587e8d81bab662cf, type: 2}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  VariableName: WrathFailure
+  VariableType: 0
+  SerializedVariableValue: 1
+  OperatorType: 0
+--- !u!114 &6655115886894753953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3304, y: -552}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 6655115886894753953}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: -2788434557595588638}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 6655115886894753953}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 3548679123206274850}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: KEYMASTER
+  DialogueText: Oh no you are incorrect! I almost feel kind of bad for your friend.
+    Well almost am I right everyone?
+  Portrait: {fileID: 21300000, guid: 7236c1582e5cc76419def6cfd2de0bc9, type: 3}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &7768038543315490694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1432, y: 24}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 7768038543315490694}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Answers 1
+        node: {fileID: 2485502705146308462}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 7768038543315490694}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -1031419625961322992}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: KEYMASTER
+  DialogueText: Here we have it folks a correct answer! How exciting! Now let's have
+    our lovely void demon ask another question shall we?
+  Portrait: {fileID: 21300000, guid: 7236c1582e5cc76419def6cfd2de0bc9, type: 3}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0
+--- !u!114 &7994195194606489493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2056, y: -328}
+  ports:
+    keys:
+    - Input
+    - Exit
+    values:
+    - _fieldName: Input
+      _node: {fileID: 7994195194606489493}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Exit
+        node: {fileID: 1967280794446616079}
+        reroutePoints: []
+      - fieldName: Exit
+        node: {fileID: -5624193395168545953}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Exit
+      _node: {fileID: 7994195194606489493}
+      _typeQualifiedName: PXE.Core.Dialogue.Nodes.Connection, PXE.Core, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: -6670138612307467365}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Variables: {fileID: 0}
+  SourceID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  TargetID:
+    guidString: 2a332c57-3c47-4a02-a448-f848d2c506a0
+  SourceGameobject: {fileID: 0}
+  TargetGameobject: {fileID: 0}
+  ActorName: Void Demon
+  DialogueText: Would you stand up for yourself if you were being wronged? Even if
+    the way you did so was an awufl thing to do? Lets say that friend of yours did
+    something awful to you...
+  Portrait: {fileID: 0}
+  UseSourceActor: 0
+  UseTargetActor: 0
+  Manual: 1
+  OverridePortrait: 0

@@ -1,0 +1,18 @@
+{
+    "name": "PXE.Core.Tilemap.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3a9781db4804a9945b9883f3a7c46d45"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

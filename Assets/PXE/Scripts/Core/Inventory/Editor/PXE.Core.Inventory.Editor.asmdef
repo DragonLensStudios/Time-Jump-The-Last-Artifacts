@@ -1,0 +1,18 @@
+{
+    "name": "PXE.Core.Inventory.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6ec08b0b0e814e848b92b43aa2b5a920"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
