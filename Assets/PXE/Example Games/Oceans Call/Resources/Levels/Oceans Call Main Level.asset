@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88db9970722648bf83131a1b52c20ef2, type: 3}
   m_Name: Oceans Call Main Level
   m_EditorClassIdentifier: 
-  <ID>k__BackingField:
-    guidString: 328676a8-bfd8-43dc-9601-69c91dc4ed95
   <Name>k__BackingField: Oceans Call Main Level
+  <ID>k__BackingField:
+    guidString: 8aae6dfb-0917-4dc7-afaa-666596ef51d7
+  <IsManualID>k__BackingField: 0
   <LevelPrefab>k__BackingField: {fileID: 4012662514637304950, guid: c52026d98c0e6e54d945e1ef335ad274, type: 3}
-  <PlayerSpawnPosition>k__BackingField: {x: 0, y: -0.5}
+  <PlayerSpawnPosition>k__BackingField: {x: -46, y: 0}
   <LevelState>k__BackingField: 0
   <EnterSfx>k__BackingField: {fileID: 0}
   <ExitSfx>k__BackingField: {fileID: 0}

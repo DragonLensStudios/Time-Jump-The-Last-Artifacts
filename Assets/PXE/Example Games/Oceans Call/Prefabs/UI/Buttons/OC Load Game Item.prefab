@@ -110,15 +110,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_TextWrappingMode: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -152,12 +154,10 @@ MonoBehaviour:
   <ID>k__BackingField:
     guidString: 5f85e4bf-2253-44d2-8b4f-7630295c5eab
   <IsManualID>k__BackingField: 0
-  <ParentID>k__BackingField:
-    guidString: 363c0328-c82a-42a5-aa43-a0fd1b3c6106
   <IsInitialized>k__BackingField: 0
   isActive: 1
   activeType: 0
-  behaviorActiveType: 0
+  componentActiveType: 0
 --- !u!114 &8992927940278021172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,16 +242,14 @@ MonoBehaviour:
   <ID>k__BackingField:
     guidString: e85b80de-bc4f-4eaf-be50-9939da48fa11
   <IsManualID>k__BackingField: 0
-  <ParentID>k__BackingField:
-    guidString: 00000000-0000-0000-0000-000000000000
   <IsInitialized>k__BackingField: 0
   isActive: 1
   activeType: 0
-  behaviorActiveType: 0
+  componentActiveType: 0
   <PlayerID>k__BackingField:
     guidString: 
   <PlayerName>k__BackingField: 
-  <PlayerPosition>k__BackingField: {x: 0, y: 0, z: 0}
+  <PlayerPosition>k__BackingField: {x: -70, y: 0, z: 0}
   <CurrentLevelID>k__BackingField:
     guidString: 
   <CurrentLevelName>k__BackingField: 
@@ -343,12 +341,10 @@ MonoBehaviour:
   <ID>k__BackingField:
     guidString: 363c0328-c82a-42a5-aa43-a0fd1b3c6106
   <IsManualID>k__BackingField: 0
-  <ParentID>k__BackingField:
-    guidString: e85b80de-bc4f-4eaf-be50-9939da48fa11
   <IsInitialized>k__BackingField: 0
   isActive: 1
   activeType: 0
-  behaviorActiveType: 0
+  componentActiveType: 0
 --- !u!222 &5256949355049140031
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -585,15 +581,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_TextWrappingMode: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -627,12 +625,10 @@ MonoBehaviour:
   <ID>k__BackingField:
     guidString: 45002707-e7ca-49dc-881c-d142fb46e331
   <IsManualID>k__BackingField: 0
-  <ParentID>k__BackingField:
-    guidString: 363c0328-c82a-42a5-aa43-a0fd1b3c6106
   <IsInitialized>k__BackingField: 0
   isActive: 1
   activeType: 0
-  behaviorActiveType: 0
+  componentActiveType: 0
 --- !u!114 &2288003724493311651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -841,9 +837,13 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6488027128398974092, guid: 953c887141757724d96dfe8f45de7d3d, type: 3}
+      propertyPath: m_ActiveFontFeatures.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6488027128398974094, guid: 953c887141757724d96dfe8f45de7d3d, type: 3}
       propertyPath: m_Name
-      value: Delete Button Text (Enabled)
+      value: Delete Button Text
       objectReference: {fileID: 0}
     - target: {fileID: 6488027128398974095, guid: 953c887141757724d96dfe8f45de7d3d, type: 3}
       propertyPath: m_AnchoredPosition.x

@@ -34,6 +34,8 @@ namespace PXE.Example_Games.Oceans_Call.Objects
         
         [field: Tooltip("The AudioObject to play when the bottle is opened.")]
         [field: SerializeField] public AudioObject OpenSfx { get; set; }
+        [field: SerializeField] public bool IsCollectable { get; set; } = true;
+        
 
         protected Rigidbody2D rb;
         protected float originalGravityScale;
@@ -96,6 +98,11 @@ namespace PXE.Example_Games.Oceans_Call.Objects
             }
             MessageSystem.MessageManager.SendImmediate(MessageChannels.UI, new LetterMessage(Message, TimeToDisplay));
             SetObjectActive(false);
+            if (IsCollectable)
+            {
+                MessageSystem.MessageManager.SendImmediate(MessageChannels.Player, new CollectibleMessage(ID, Name));
+                Destroy(gameObject);
+            }
         }
 
         /// <summary>

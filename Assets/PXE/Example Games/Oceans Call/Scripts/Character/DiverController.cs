@@ -122,7 +122,7 @@ namespace PXE.Example_Games.Oceans_Call.Character
                 if (ReachedLastWaypoint)
                 {
                     MessageSystem.MessageManager.SendImmediate(MessageChannels.UI, new HidePopupMessage(PopupType.Notification));
-                    MessageSystem.MessageManager.SendImmediate(MessageChannels.Dialogue, new DialogueMessage(DialogueState.Start,ReferenceState, CurrentDialogueGraph, CurrentDialogueInteraction, ID, player.ID));
+                    //MessageSystem.MessageManager.SendImmediate(MessageChannels.Dialogue, new DialogueMessage(DialogueState.Start,ReferenceState, CurrentDialogueGraph, CurrentDialogueInteraction, ID, player.ID));
                 }
                 else
                 {
@@ -135,7 +135,7 @@ namespace PXE.Example_Games.Oceans_Call.Character
                     if (DialogueTriggerDepths.Count <= 0) return;
                     // Check if the current DepthInMeters is greater than the first depth in DialogueTriggerDepths
                     if (!(DepthInMeters > DialogueTriggerDepths[0])) return;
-                    MessageSystem.MessageManager.SendImmediate(MessageChannels.Dialogue, new DialogueMessage(DialogueState.Start, ReferenceState, CurrentDialogueGraph, CurrentDialogueInteraction, ID, player.ID));
+                    //MessageSystem.MessageManager.SendImmediate(MessageChannels.Dialogue, new DialogueMessage(DialogueState.Start, ReferenceState, CurrentDialogueGraph, CurrentDialogueInteraction, ID, player.ID));
     
                     // Update LastDepthTriggered to the current depth threshold
                     LastDepthTriggered = DialogueTriggerDepths[0];
