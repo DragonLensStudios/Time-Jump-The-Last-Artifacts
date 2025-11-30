@@ -2,6 +2,7 @@
 using PXE.Core.Messaging;
 using PXE.Core.Objects;
 using PXE.Core.State_System;
+using PXE.Core.State_System.Messaging.Messages;
 using UnityEngine;
 
 namespace PXE.Core.Dialogue.Objects
@@ -17,6 +18,9 @@ namespace PXE.Core.Dialogue.Objects
         [field: SerializeField]
         public virtual Collider2D Col { get; set; }
 
+        [field: SerializeField]
+        public GameState State { get; set; }
+
         private void Reset()
         {
             Col = GetComponent<Collider2D>();
@@ -29,5 +33,7 @@ namespace PXE.Core.Dialogue.Objects
             MessageSystem.MessageManager.SendImmediate(MessageChannels.GameFlow,
                 new Messaging.Messages.EndLevelMessage(false));
             // I want to trigger the game over state from the state system
+            MessageSystem.MessageManager.SendImmediate(MessageChannels.GameFlow, new GameStateMessage(State));
         }
     }
+}
